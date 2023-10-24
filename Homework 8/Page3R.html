@@ -1,0 +1,52 @@
+<html>
+<title>Contact Us</title>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+        function checkboxes()
+        {
+            var Name = document.getElementById("Name").value;
+            var Email = document.getElementById("Email").value;
+            if(Name == "")
+            {
+                document.getElementById("Name").focus();
+                document.getElementById("Name").style.backgroundColor = "red";
+                document.getElementById("NameMessage").innerHTML = "* Required";
+                document.getElementById("NameMessage").style.color = "red";
+                
+            }
+            if(Email == "")
+            {
+                document.getElementById("Email").focus();
+                document.getElementById("Email").style.backgroundColor = "red";
+                document.getElementById("EmailMessage").innerHTML = "* Required";
+                document.getElementById("EmailMessage").style.color = "red";
+
+            }
+          
+        
+        }
+    </script>
+</head>
+
+</head>
+
+<body>
+    <div style="margin-left: 35px;">
+        <h1>Contact Us</h1>
+        <p></p>
+        
+            <p>Name: <input type="text" id="Name">&nbsp;<span id="NameMessage"></span></p>
+            <p>Email: <input type="text" id="Email">&nbsp;<span id="EmailMessage"></span></p>
+            <p></p>
+            <input type="radio" name="yes" value="yes" required="required">yes<br>
+            <input type="radio" name="no" value="no" required="required">No<br>
+            <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();'>Submit</button>
+        
+        <p><a href="Page1R.html">Home Page</a></p>
+        <p><a href="Page2R.html">Book Summary</a></p>
+    </div>
+</body>
+
+</html>

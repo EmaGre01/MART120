@@ -1,0 +1,25 @@
+ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+h2{
+    color: 871c0e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: bb4e0b;
+}
+h4{
+    color: ec6816;
+}
+li{
+    color: 47b39d;
+}
+.myClass{
+    font-size: medium;
+    font-family: fantasy;
+    color: b05f6d;
+}
+#myID{
+    font-family: cursive;
+    color: eb6b56;
+}

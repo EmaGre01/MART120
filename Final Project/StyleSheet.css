@@ -1,0 +1,25 @@
+p{
+    color: 86112e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h1{
+    color: 2e2e41;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h2{
+    color: 4d3347;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.myClass{
+    font-size: medium;
+    font-family: fantasy;
+    color: fb6d10;
+}
+a{
+    font-family:sans-serif;
+    color: eb3e1b;
+}
+li{
+    font-family:sans-serif;
+    color: eb3e1b;
+}
